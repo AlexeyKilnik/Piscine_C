@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-int	main(void)
+void ft_print_numbers(void);
 {
 	char	digit;
 
@@ -10,5 +10,4 @@ int	main(void)
 		write(1, &digit, 1);
 		digit++;
 	}
-	return (0);
 }

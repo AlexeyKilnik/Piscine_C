@@ -1,5 +1,5 @@
 #include <unistd.h>
-void	check_number(int n)
+void ft_is_negative(int n);
 {
 	char	result;
 
@@ -8,12 +8,4 @@ void	check_number(int n)
 	else
 		result = 'P';
 	write(1, &result, 1);
-}
-
-int main(void)
-{
-	check_number(5);
-	check_number(-3);
-	check_number(10);	
-	return(0);
 }
