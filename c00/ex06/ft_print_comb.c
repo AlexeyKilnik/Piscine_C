@@ -7,6 +7,7 @@ void ft_putchar(char c)
 
 void ft_print_comb(void)
 {
+	// 00 99 01 02 01 00
     int a;
     int b;
     char tens1;
